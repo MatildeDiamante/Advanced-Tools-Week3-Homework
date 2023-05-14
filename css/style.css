@@ -31,7 +31,6 @@ p {
 }
 div {
   display: block;
-  margin: 0 auto;
 }
 img {
   vertical-align: middle;
@@ -76,6 +75,7 @@ img {
 }
 .about-paragraphs p {
   margin: 30px 0;
+  text-align: center;
 }
 .email-link {
   display: flex;
@@ -138,5 +138,8 @@ img {
   }
   .project-title {
     font-size: 45px;
+  }
+  .about-paragraphs p {
+    text-align: center;
   }
 }
