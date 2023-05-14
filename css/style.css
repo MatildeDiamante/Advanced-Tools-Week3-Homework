@@ -18,6 +18,7 @@ h1 {
 }
 h2 {
   font-size: 48px;
+  text-align: center;
 }
 h3 {
   font-size: 24px;
@@ -26,7 +27,7 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
 }
 div {
   display: block;
@@ -70,6 +71,9 @@ img {
   text-align: center;
   display: block;
 }
+.project-title {
+  text-align: left;
+}
 .about-paragraphs p {
   margin: 30px 0;
 }
@@ -92,13 +96,47 @@ img {
   vertical-align: middle;
 }
 @media (max-width: 576px) {
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   h1 {
-    font-size: 48px;
+    font-size: 47px;
   }
   h2 {
-    font-size: 33px;
+    font-size: 35px;
   }
   h3 {
     font-size: 20px;
+  }
+  p {
+    text-align: center;
+  }
+  .project-title {
+    text-align: center;
+    font-size: 40px;
+  }
+  .project-link-yoga {
+    display: block;
+    margin: 20px 65px;
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    margin: 20px 50px;
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  body {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .project-title {
+    font-size: 45px;
   }
 }
