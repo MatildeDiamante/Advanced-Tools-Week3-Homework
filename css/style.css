@@ -130,6 +130,9 @@ img {
   .about-paragraphs p {
     margin: 10px -35px;
   }
+  .email-link {
+    font-size: 20px;
+  }
 }
 @media (max-width: 992px) {
   body {
